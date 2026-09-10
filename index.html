@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engagement Lead & AI Solutions Architect | Portfolio</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              500: '#10b981',
+              600: '#059669',
+              900: '#064e3b',
+            }
+          },
+          fontFamily: {
+            mono: ['JetBrains Mono', 'Menlo', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glass-card {
+      background: rgba(17, 24, 39, 0.75);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .active-lens {
+      background-color: #10b981 !important;
+      color: #000 !important;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-brand-500 selection:text-black">
+
+  <!-- Nav Header -->
+  <header class="sticky top-0 z-50 glass-card border-b border-slate-800/80 px-6 py-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <span class="w-3 h-3 rounded-full bg-brand-500 animate-pulse"></span>
+        <span class="font-mono text-sm tracking-widest text-slate-300 uppercase">SYS_ACTIVE // PORTFOLIO</span>
+      </div>
+      <nav class="hidden md:flex space-x-8 text-sm text-slate-400 font-medium">
+        <a href="#competencies" class="hover:text-brand-500 transition">Competencies</a>
+        <a href="#case-studies" class="hover:text-brand-500 transition">Case Studies</a>
+        <a href="#adrs" class="hover:text-brand-500 transition">Decisions (ADRs)</a>
+      </nav>
+      <div class="flex items-center space-x-3">
+        <!-- Architecture Brief Download Button -->
+        <a href="./assets/Architecture_Executive_Brief.pdf" download class="hidden sm:inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-300 hover:text-white hover:border-brand-500 transition">
+          <i data-lucide="file-down" class="w-3.5 h-3.5 text-brand-500"></i>
+          <span>Architecture Deck (PDF)</span>
+        </a>
+        <a href="https://github.com/yourusername" target="_blank" class="p-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:border-slate-700 transition" title="GitHub">
+          <i data-lucide="github" class="w-4 h-4"></i>
+        </a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" class="p-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:border-slate-700 transition" title="LinkedIn">
+          <i data-lucide="linkedin" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-12 space-y-24">
+    
+    <!-- 1. HERO SECTION -->
+    <section class="space-y-6 pt-8">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-500 text-xs font-mono">
+        <i data-lucide="terminal" class="w-3.5 h-3.5"></i>
+        <span>AI SOLUTIONS ARCHITECT & ENGAGEMENT LEAD</span>
+      </div>
+      
+      <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-white max-w-3xl leading-tight">
+        Translating complex workflows into <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-teal-300">scalable agentic platforms.</span>
+      </h1>
+      
+      <p class="text-lg text-slate-400 max-w-2xl leading-relaxed">
+        Bilingual technologist operating across hands-on systems implementation (FastAPI, React, LangGraph) and executive delivery governance, commercial ROI, and Zero Trust compliance.
+      </p>
+
+      <div class="flex flex-wrap gap-4 pt-2">
+        <a href="#case-studies" class="px-5 py-2.5 rounded-lg bg-brand-500 text-black font-semibold text-sm hover:bg-brand-600 transition flex items-center space-x-2">
+          <span>Explore Production Systems</span>
+          <i data-lucide="arrow-down" class="w-4 h-4"></i>
+        </a>
+        <a href="./assets/Architecture_Executive_Brief.pdf" download class="px-5 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-slate-200 hover:text-white hover:border-brand-500 transition text-sm flex items-center space-x-2">
+          <i data-lucide="file-text" class="w-4 h-4 text-brand-500"></i>
+          <span>Download Architecture Deck</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 2. SIX COMPETENCY PILLARS -->
+    <section id="competencies" class="space-y-8">
+      <div>
+        <h2 class="text-xs font-mono uppercase tracking-widest text-brand-500">Core Capabilities</h2>
+        <p class="text-2xl font-bold text-white mt-1">Cross-Functional Technical & Delivery Matrix</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="glass-card p-6 rounded-xl hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-brand-500 mb-4">
+            <i data-lucide="git-branch" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-semibold text-white text-lg">1. Delivery & Governance</h3>
+          <p class="text-sm text-slate-400 mt-2">RAID mitigation logs, client value trees, agile delivery cadences, and operating rhythm design.</p>
+          <div class="flex flex-wrap gap-1.5 mt-4">
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">Agile/Scrum</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">RAID Logs</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">Value Trees</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-xl hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-brand-500 mb-4">
+            <i data-lucide="code-2" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-semibold text-white text-lg">2. Full-Stack Dev</h3>
+          <p class="text-sm text-slate-400 mt-2">Decoupled microservices, clean REST/gRPC contracts, modular Python backends, and responsive UIs.</p>
+          <div class="flex flex-wrap gap-1.5 mt-4">
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">Python/FastAPI</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">React/Tailwind</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">Docker</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-xl hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-brand-500 mb-4">
+            <i data-lucide="database" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-semibold text-white text-lg">3. Data Engineering</h3>
+          <p class="text-sm text-slate-400 mt-2">Layout-aware multimodal extraction, typed validation schemas, and deterministic spreadsheet generation.</p>
+          <div class="flex flex-wrap gap-1.5 mt-4">
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">OpenPyXL</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">Pydantic</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">Vector Stores</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-xl hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-brand-500 mb-4">
+            <i data-lucide="cpu" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-semibold text-white text-lg">4. AI & Agent Harness</h3>
+          <p class="text-sm text-slate-400 mt-2">Multi-agent graphs, stateful execution loops, hybrid dense/sparse retrieval, and human-in-the-loop gates.</p>
+          <div class="flex flex-wrap gap-1.5 mt-4">
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">LangGraph</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">Hybrid RAG</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">HITL Verification</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-xl hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-brand-500 mb-4">
+            <i data-lucide="cloud" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-semibold text-white text-lg">5. Enterprise Systems</h3>
+          <p class="text-sm text-slate-400 mt-2">VDR integrations, high availability topologies, multi-tenant boundaries, and SLA/SLO sizing.</p>
+          <div class="flex flex-wrap gap-1.5 mt-4">
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">AWS/GCP</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">CI/CD Pipelines</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">NFR Sizing</span>
+          </div>
+        </div>
+
+        <div class="glass-card p-6 rounded-xl hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-brand-500 mb-4">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-semibold text-white text-lg">6. LLMSecOps & Trust</h3>
+          <p class="text-sm text-slate-400 mt-2">VPC isolation, zero data retention gates, prompt firewalls, and programmatic citation attribution.</p>
+          <div class="flex flex-wrap gap-1.5 mt-4">
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">Zero Trust</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">PII Masking</span>
+            <span class="px-2 py-0.5 text-xs rounded bg-slate-800 text-slate-300 font-mono">Guardrails</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. FEATURED CASE STUDIES (DUAL-LENS) -->
+    <section id="case-studies" class="space-y-16">
+      <div>
+        <h2 class="text-xs font-mono uppercase tracking-widest text-brand-500">Flagship Deployments</h2>
+        <p class="text-2xl font-bold text-white mt-1">Enterprise Solution Case Studies</p>
+      </div>
+
+      <!-- CASE STUDY 1: MODEL ML / FAMILY OFFICE -->
+      <div class="space-y-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <div>
+            <span class="text-xs font-mono text-slate-400 uppercase tracking-wider">Case Study 01 // Model ML Paradigm</span>
+            <h3 class="text-xl font-bold text-white">Single-Family Office: Multi-Asset Due Diligence Harness</h3>
+          </div>
+
+          <div class="inline-flex p-1 bg-slate-900 border border-slate-800 rounded-lg text-xs font-medium">
+            <button id="cs1-btn-biz" onclick="toggleLens('cs1', 'business')" class="px-3.5 py-1.5 rounded-md active-lens transition flex items-center space-x-1.5">
+              <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
+              <span>Delivery & ROI</span>
+            </button>
+            <button id="cs1-btn-tech" onclick="toggleLens('cs1', 'tech')" class="px-3.5 py-1.5 rounded-md text-slate-400 hover:text-white transition flex items-center space-x-1.5">
+              <i data-lucide="cpu" class="w-3.5 h-3.5"></i>
+              <span>Systems Architecture</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="glass-card p-8 rounded-2xl border border-slate-800">
+          <div id="cs1-business" class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-6 border-b border-slate-800">
+              <div>
+                <span class="text-xs text-slate-400 font-mono">TARGET AUM</span>
+                <p class="text-lg font-bold text-white mt-0.5">$650M Multi-Asset</p>
+              </div>
+              <div>
+                <span class="text-xs text-slate-400 font-mono">CYCLE TIME IMPACT</span>
+                <p class="text-lg font-bold text-brand-500 mt-0.5">12 Days ➔ &lt;4 Hours</p>
+              </div>
+              <div>
+                <span class="text-xs text-slate-400 font-mono">CONVERSION OUTCOME</span>
+                <p class="text-lg font-bold text-white mt-0.5">100% Managing Partner Adoption</p>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <h4 class="text-sm font-mono uppercase tracking-wider text-slate-300">1. Problem & Friction</h4>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                A 3-person investment team faced deal-flow bottlenecks when evaluating direct co-investments and processing quarterly GP reporting across unstructured PDFs, resulting in 35 manual hours per deal and lost syndicate allocations.
+              </p>
+            </div>
+
+            <div class="space-y-3">
+              <h4 class="text-sm font-mono uppercase tracking-wider text-slate-300">2. Engagement Delivery & Governance</h4>
+              <ul class="text-sm text-slate-400 space-y-1.5 list-disc list-inside">
+                <li><strong class="text-slate-200">Value Decomposition:</strong> Standardized partner evaluation heuristics into a 4-tier programmatic evaluation matrix.</li>
+                <li><strong class="text-slate-200">Delivery Governance:</strong> Deployed a RAID log tracking VDR formatting edge-cases and non-disclosure compliance.</li>
+                <li><strong class="text-slate-200">HITL Gateways:</strong> Built sign-off checkpoints enabling principals to verify extracted debt ratios before memo compilation.</li>
+              </ul>
+            </div>
+
+            <div class="space-y-3">
+              <h4 class="text-sm font-mono uppercase tracking-wider text-slate-300">3. Business Results</h4>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Reduced analyst processing hours by 88% per opportunity, tripled co-investment deal flow velocity without expanding headcount, and converted a 60-day POC into a multi-year enterprise platform contract.
+              </p>
+            </div>
+          </div>
+
+          <div id="cs1-tech" class="space-y-6 hidden">
+            <div class="bg-slate-900/90 rounded-xl p-5 border border-slate-800 font-mono text-xs text-slate-300 space-y-1.5 overflow-x-auto">
+              <p class="text-slate-500 uppercase tracking-widest text-[10px]">// TOPOLOGY DATA FLOW</p>
+              <p class="text-brand-500">[Ingestion Gate] <span class="text-slate-400">Box/VDR Multi-Tenant Sync ➔ PII Scrubbing + Token Hash</span></p>
+              <p class="text-slate-500 pl-4">│</p>
+              <p class="text-teal-400">[Extraction Layer] <span class="text-slate-400">Dual Pipeline: Heuristic Table Parser + Vision LLM</span></p>
+              <p class="text-slate-500 pl-4">│</p>
+              <p class="text-sky-400">[Modeling Engine] <span class="text-slate-400">Pydantic Schemas ➔ Deterministic OpenPyXL Workbook Injection</span></p>
+              <p class="text-slate-500 pl-4">│</p>
+              <p class="text-purple-400">[Agent Harness] <span class="text-slate-400">LangGraph Verification State Machine ➔ Word/PPT Generation</span></p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+              <div class="p-3.5 rounded bg-slate-900/50 border border-slate-800">
+                <span class="text-slate-400 block font-mono">ORCHESTRATION & STATE</span>
+                <span class="text-slate-200 font-medium">LangGraph multi-step graph with state rollbacks</span>
+              </div>
+              <div class="p-3.5 rounded bg-slate-900/50 border border-slate-800">
+                <span class="text-slate-400 block font-mono">DETERMINISTIC LAYER</span>
+                <span class="text-slate-200 font-medium">OpenPyXL workbook engine (zero formula hallucination)</span>
+              </div>
+              <div class="p-3.5 rounded bg-slate-900/50 border border-slate-800">
+                <span class="text-slate-400 block font-mono">EXTRACTION SYSTEM</span>
+                <span class="text-slate-200 font-medium">Hybrid: Heuristic table parser + Vision multimodal fallback</span>
+              </div>
+              <div class="p-3.5 rounded bg-slate-900/50 border border-slate-800">
+                <span class="text-slate-400 block font-mono">SECURITY PERIMETER</span>
+                <span class="text-slate-200 font-medium">Isolated VPC with stateless Zero Data Retention (ZDR)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CASE STUDY 2: NTU SCTP CAPSTONE -->
+      <div class="space-y-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <div>
+            <span class="text-xs font-mono text-slate-400 uppercase tracking-wider">Case Study 02 // NTU SCTP Capstone</span>
+            <h3 class="text-xl font-bold text-white">Enterprise Knowledge Engine & Regulatory Compliance RAG</h3>
+          </div>
+
+          <div class="inline-flex p-1 bg-slate-900 border border-slate-800 rounded-lg text-xs font-medium">
+            <button id="cs2-btn-biz" onclick="toggleLens('cs2', 'business')" class="px-3.5 py-1.5 rounded-md active-lens transition flex items-center space-x-1.5">
+              <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
+              <span>Delivery & ROI</span>
+            </button>
+            <button id="cs2-btn-tech" onclick="toggleLens('cs2', 'tech')" class="px-3.5 py-1.5 rounded-md text-slate-400 hover:text-white transition flex items-center space-x-1.5">
+              <i data-lucide="cpu" class="w-3.5 h-3.5"></i>
+              <span>Systems Architecture</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="glass-card p-8 rounded-2xl border border-slate-800">
+          <div id="cs2-business" class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-6 border-b border-slate-800">
+              <div>
+                <span class="text-xs text-slate-400 font-mono">SEARCH ACCURACY</span>
+                <p class="text-lg font-bold text-brand-500 mt-0.5">30% Keyword Precision Boost</p>
+              </div>
+              <div>
+                <span class="text-xs text-slate-400 font-mono">LATENCY (P95)</span>
+                <p class="text-lg font-bold text-white mt-0.5">&lt;1.8s End-to-End</p>
+              </div>
+              <div>
+                <span class="text-xs text-slate-400 font-mono">COMPLIANCE VERIFICATION</span>
+                <p class="text-lg font-bold text-white mt-0.5">Automated Citation Tracking</p>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <h4 class="text-sm font-mono uppercase tracking-wider text-slate-300">1. Operational Problem</h4>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Enterprise compliance officers and wealth advisory teams routinely lost 3-4 hours per client query manually validating policy revisions across fragmented internal PDFs and regulatory databases, facing high liability risk from outdated citations.
+              </p>
+            </div>
+
+            <div class="space-y-3">
+              <h4 class="text-sm font-mono uppercase tracking-wider text-slate-300">2. Delivery Leadership & Methodology</h4>
+              <ul class="text-sm text-slate-400 space-y-1.5 list-disc list-inside">
+                <li><strong class="text-slate-200">Phase 1 (POC Scope):</strong> Delivered a containerized reference engine on static regulatory PDFs within 3 sprints.</li>
+                <li><strong class="text-slate-200">Phase 2 (Hardening):</strong> Integrated CI/CD automated linting and security scanning to meet enterprise deployment standards.</li>
+                <li><strong class="text-slate-200">User Enablement:</strong> Ran calibration sessions with users to establish confidence in cell-level and paragraph-level citations.</li>
+              </ul>
+            </div>
+
+            <div class="space-y-3">
+              <h4 class="text-sm font-mono uppercase tracking-wider text-slate-300">3. Business Results</h4>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Compressed cross-reference cycle times from hours to seconds while providing fully auditable page/paragraph references, meeting non-functional regulatory compliance guidelines.
+              </p>
+            </div>
+          </div>
+
+          <div id="cs2-tech" class="space-y-6 hidden">
+            <div class="bg-slate-900/90 rounded-xl p-5 border border-slate-800 font-mono text-xs text-slate-300 space-y-1.5 overflow-x-auto">
+              <p class="text-slate-500 uppercase tracking-widest text-[10px]">// PRODUCTION TOPOLOGY</p>
+              <p class="text-brand-500">[Ingest & Chunk] <span class="text-slate-400">PDF Document Parsers ➔ Metadata Indexing + Token Windowing</span></p>
+              <p class="text-slate-500 pl-4">│</p>
+              <p class="text-teal-400">[Hybrid Retrieval] <span class="text-slate-400">Vector Store (Dense) + BM25 (Keyword Sparse) ➔ Reranker Layer</span></p>
+              <p class="text-slate-500 pl-4">│</p>
+              <p class="text-sky-400">[Serving & Gateway] <span class="text-slate-400">FastAPI Asynchronous Microservice ➔ Docker Containerized</span></p>
+              <p class="text-slate-500 pl-4">│</p>
+              <p class="text-purple-400">[Guardrail Layer] <span class="text-slate-400">Pydantic Output Validation + Hallucination Check ➔ React Frontend</span></p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+              <div class="p-3.5 rounded bg-slate-900/50 border border-slate-800">
+                <span class="text-slate-400 block font-mono">BACKEND ARCHITECTURE</span>
+                <span class="text-slate-200 font-medium">FastAPI asynchronous service decoupled from frontend</span>
+              </div>
+              <div class="p-3.5 rounded bg-slate-900/50 border border-slate-800">
+                <span class="text-slate-400 block font-mono">RETRIEVAL ENGINE</span>
+                <span class="text-slate-200 font-medium">Hybrid Search (Dense Embeddings + BM25 Sparse Index)</span>
+              </div>
+              <div class="p-3.5 rounded bg-slate-900/50 border border-slate-800">
+                <span class="text-slate-400 block font-mono">PACKAGING & CI/CD</span>
+                <span class="text-slate-200 font-medium">Multi-stage Docker build with GitHub Actions automation</span>
+              </div>
+              <div class="p-3.5 rounded bg-slate-900/50 border border-slate-800">
+                <span class="text-slate-400 block font-mono">SECURITY CONTROLS</span>
+                <span class="text-slate-200 font-medium">Environment variable isolation with strict CORS & PII masks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. ARCHITECTURAL DECISION RECORDS (ADRs) -->
+    <section id="adrs" class="space-y-6">
+      <div>
+        <h2 class="text-xs font-mono uppercase tracking-widest text-brand-500">Engineering Rigor</h2>
+        <p class="text-2xl font-bold text-white mt-1">Architectural Decision Records (ADRs)</p>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-sm glass-card rounded-xl overflow-hidden">
+          <thead class="bg-slate-900/80 text-xs font-mono uppercase text-slate-400 border-b border-slate-800">
+            <tr>
+              <th class="p-4">Context / System</th>
+              <th class="p-4">Chosen Architecture</th>
+              <th class="p-4">Alternative Considered</th>
+              <th class="p-4">Strategic Justification</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800/60 text-slate-300 text-xs">
+            <tr>
+              <td class="p-4 font-semibold text-white">Retrieval Engine (Capstone)</td>
+              <td class="p-4 text-brand-500 font-mono">Hybrid Search (Dense + BM25)</td>
+              <td class="p-4 text-slate-400">Pure Vector Embedding Search</td>
+              <td class="p-4 text-slate-400">Vector search alone missed alphanumeric product codes and regulation clauses; hybrid search boosted precision by 30%.</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-semibold text-white">Modeling Engine (Model ML)</td>
+              <td class="p-4 text-brand-500 font-mono">OpenPyXL Injection</td>
+              <td class="p-4 text-slate-400">Direct LLM Math Generation</td>
+              <td class="p-4 text-slate-400">LLMs fail compound interest & waterfalls. Injecting verified variables into formulaic sheets ensures mathematical determinism.</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-semibold text-white">Orchestration Layer</td>
+              <td class="p-4 text-brand-500 font-mono">LangGraph State Graph</td>
+              <td class="p-4 text-slate-400">Linear RAG Pipeline</td>
+              <td class="p-4 text-slate-400">Complex private market documents require state rollbacks, missing-table handling, and explicit human verification stops.</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-semibold text-white">Security Perimeter</td>
+              <td class="p-4 text-brand-500 font-mono">VPC Container + ZDR</td>
+              <td class="p-4 text-slate-400">Public Frontier APIs</td>
+              <td class="p-4 text-slate-400">Strict LP non-disclosure agreements (NDAs) prohibited public third-party model retention of proprietary deal metrics.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-900 glass-card mt-24 py-8 px-6 text-center text-xs text-slate-500 font-mono">
+    <p>© 2026 Engagement Lead & AI Solutions Architect Portfolio // Hosted on GitHub Pages</p>
+  </footer>
+
+  <!-- Script for Independent Lens Toggling -->
+  <script>
+    lucide.createIcons();
+
+    function toggleLens(caseStudyId, type) {
+      const bizView = document.getElementById(`${caseStudyId}-business`);
+      const techView = document.getElementById(`${caseStudyId}-tech`);
+      const btnBiz = document.getElementById(`${caseStudyId}-btn-biz`);
+      const btnTech = document.getElementById(`${caseStudyId}-btn-tech`);
+
+      if (type === 'business') {
+        bizView.classList.remove('hidden');
+        techView.classList.add('hidden');
+        btnBiz.classList.add('active-lens');
+        btnBiz.classList.remove('text-slate-400');
+        btnTech.classList.remove('active-lens');
+        btnTech.classList.add('text-slate-400');
+      } else {
+        techView.classList.remove('hidden');
+        bizView.classList.add('hidden');
+        btnTech.classList.add('active-lens');
+        btnTech.classList.remove('text-slate-400');
+        btnBiz.classList.remove('active-lens');
+        btnBiz.classList.add('text-slate-400');
+      }
+    }
+  </script>
+</body>
+</html>
